@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html window-state="hidden" window-frame="transparent" window-icon="./png/logo/32.png">
+
+  <head>
+    <title>ScreenRaptor</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <script type="module" src="./js/main.js"></script>
+  </head>
+
+  <body>
+    <div #canvas>
+      <div #crop-area></div>
+      <div #buttons>
+        <button |checkbox .tool #move></button>
+        <button .tool #save></button>
+        <button .tool #close></button>
+      </div>
+    </div>
+    <include media="sciter" src="./html/tray.html" />
+  </body>
+
+</html>

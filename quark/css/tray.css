@@ -1,0 +1,8 @@
+li {
+  border: 1px solid transparent;
+}
+
+li:hover {
+  background-color: #DDECFF;
+  border: 1px solid #26A0DA;
+}
